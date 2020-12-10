@@ -184,16 +184,16 @@ nav ul li a:hover{
 #banner-shape{
     position: relative;
 }
-#banner-shape .shape{
+#banner-shape .shape {
     width: 100%;
-    height: 200px;
+    height: 210px;
     background: white;
-    transform: skew(-85deg);
+    transform: skew(-86deg);
     transform-origin: bottom left;
     position: absolute;
     top: -200px;
-    left: 0;
-}   
+    left: -150px;
+} 
 /* | | | | | | | | | | | | | | | |
    | | banner-shape part end | | |
    | | | | | | | | | | | | | | | |*/
@@ -324,15 +324,15 @@ nav ul li a:hover{
 #about-part{
     position: relative;
 }
-#about-part .shape{
-    height: 150px;
+#about-part .shape {
+    height: 210px;
     background: white;
     width: 100%;
     transform: skew(-86deg);
     transform-origin: top right;
     position: absolute;
-    bottom: -150px;
-    right: 0;
+    bottom: -200px;
+    right: -150px;
     z-index: 1;
 }
 /* | | | | | | | | | | | | | | | |
@@ -387,14 +387,14 @@ nav ul li a:hover{
     transform: scale(1);
 }
 #portfolio-part .shape{
-    height: 150px;
     background: white;
     width: 100%;
     transform: skew(-86deg);
-    transform-origin: left bottom;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: -10px;
+    height: 210px;
+    transform-origin: bottom left;
+    left: -150px;
 }
 /* | | | | | | | | | | | | | | | |
    | | | | Portfolio css end | | |
@@ -414,8 +414,8 @@ nav ul li a:hover{
     transform-origin: left top;
     transform: skew(-86deg);
     position: absolute;
-    bottom: -250px;
-    left: 0;
+    bottom: -245px;
+    left: 77px;
     z-index: 1;
 }
 #service-part .line{
@@ -558,15 +558,13 @@ nav ul li a:hover{
     width: 100%;
     position: relative;
 }
-#testi-part .line{
-    background: url(../images/line2.png) center;
-    background-repeat: no-repeat;
-    height: 570px;
-    width: 2px;
+#testi-part .line {
+    background: url(../images/line2.png) center repeat;
+    height: 617px;
+    width: 1px;
     position: absolute;
     top: 140px;
-    left: 506px;
-  
+    left: 507px;
 }
 #testi-part .overlay{
     width: 100%;
@@ -730,8 +728,8 @@ nav ul li a:hover{
     transform: skew(-86deg);
     transform-origin: left bottom;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: -5px;
+    left: -77px;
 }
 /* | | | | | | | | | | | | | | | |
    | | | | testimonial css end | |
