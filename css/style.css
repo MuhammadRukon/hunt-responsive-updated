@@ -30,7 +30,7 @@ h1{
     line-height: 2;
 
 }
-body{
+body,html{
     overflow-x: hidden;
 }
 /* | | | | | | | | | | | | | |
