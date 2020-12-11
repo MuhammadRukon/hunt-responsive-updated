@@ -153,9 +153,7 @@
         width: 100%;
     }
     #service-part .line{
-        height: 480px;
-        top: 306px;
-        left: 50%;
+        display: none;
     }
     #service-part .item .right .text{
         padding-top: 40px;
@@ -175,9 +173,25 @@
     }
     #service-part .snext{
         margin-left: 50%;
+        top: -40px;
+        left: -5%;
+        transition: .2s;
+    }
+    #service-part .snext:hover{
+        background: #fec600;
+        border: 1px solid #fec600;
+        color: black;
     }
     #service-part .sprev{
         margin-left: 50%;
+        top: -40px;
+        left: 5%;
+        transition: .2s;
+    }
+    #service-part .sprev:hover{
+        background: #fec600;
+        border: 1px solid #fec600;
+        color: black;
     }
     #service-part .shape{
         display: none;
@@ -207,8 +221,22 @@
         padding-left: 15px;
         padding-right: 10px;
     }
+    #testi-part .testi-slider .left{
+        position: relative;
+    }
+    
     #testi-part .snext {
-        bottom: 1px;
+        position: absolute;
+        top: 0;
+        left: 30%;
+
+    }
+    #testi-part .sprev {
+        position: absolute;
+        top: 0;
+        left: -30%;
+        z-index: 999;
+
     }
     #testi-part .testi-slider .right .text{
         margin-top: 20px;
@@ -225,9 +253,7 @@
         margin: 0px 0;
     }
     #testi-part .line {
-        height: 377px;
-        top: 90px;
-        left: 43px;
+        display: none;
     }
     #testi-part .testi-slider .right .triangle-left {
         border-top: 30px solid transparent;
@@ -251,19 +277,23 @@
     /* pricing part end */
 
     /* team part start */
-    #team-part{
-        padding-left: 10px;
-    }
+
     #team-part .title p{
         width: auto;
         padding: 0 10px;
         margin: 30px 0 20px 0;
     }
     #team-part .row .member {
-        margin-top: 70px;
+        margin-top: 10px;
+            width: 100%;
+            margin-bottom: 50px;
     }
     #team-part .row .mem-res {
         margin-top: 10px;
+    }
+    #team-part .row .member .social-media {
+        height: 55px;
+        width: 100%;
     }
     /* team part end */
 
@@ -281,3 +311,36 @@
         padding: 20px;
     }
     /* counter part end */
+    #workplace-part{
+        padding-top: 30px;
+    }
+
+    #workplace-part .row .img {
+        padding: 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #workplace-part .row .img img{
+        width: 100px;
+    }
+    /* footer part start */
+    #footer-btm .follow .social-media .smf {
+        height: 30px;
+        text-align: center;
+        padding: 0 10px;
+    }
+    #footer-btm .follow h2 {
+        padding-top: 10px;
+    }
+    #footer-btm .contact{
+        margin-bottom: 50px;
+    }
+    #footer-btm .contact::after {
+        top: 125px;
+        right: 50%;
+        height: 1px;
+        width: 150px;
+        transform: translateX(50%);
+        background: #555555;
+        content: "";
+    }

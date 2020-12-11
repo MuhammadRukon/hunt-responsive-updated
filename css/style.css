@@ -1104,6 +1104,9 @@ nav ul li a:hover{
     font-size: 20px;
     color: #353535;   
 }
+#footer-btm .follow{
+    text-align: center;
+}
 #footer-btm .follow h2{
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
@@ -1112,16 +1115,12 @@ nav ul li a:hover{
     padding-top: 60px;
 }
 #footer-btm .follow .social-media{
-    display: flex;
-    padding-left: 376px;
+    display: inline-flex;
     margin: 20px 0 30px 0;
 }
 #footer-btm .follow .social-media .smf{
-    width: 30px;
     height: 30px;
-    text-align: center;
-    margin: 0 20px;
-     
+    padding: 0 20px;
 }
 #footer-btm .follow .social-media .smf a i{
     background: #fec600;
