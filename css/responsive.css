@@ -87,7 +87,7 @@
     #about-part .img{
         width: 250px;
         height: 250px;
-        line-height: 241px;
+        line-height: 244px;
         margin: 0 auto;
         margin-top: 15px;
     }
@@ -205,7 +205,6 @@
     #testi-part .testi-slider .left .item .img {
         width: 50px;
         height: 50px;
-        margin-top: 45px;
     }
     #testi-part .shape{
         display: none;
@@ -217,19 +216,17 @@
         margin-top: 100px;
     }
     #testi-part .testi-slider .right {
-        margin-top: -38px;
         padding-left: 15px;
         padding-right: 10px;
+        height: 346px;
     }
     #testi-part .testi-slider .left{
         position: relative;
     }
-    
     #testi-part .snext {
         position: absolute;
         top: 0;
         left: 30%;
-
     }
     #testi-part .sprev {
         position: absolute;
@@ -239,14 +236,17 @@
     }
     #testi-part .testi-slider .right .text{
         margin-top: 20px;
-        margin-bottom: 50px;
+        margin-bottom: 0;
     }
     #testi-part .testi-slider .right .img2 {
-        bottom: 20px;
+        bottom: 10px;
+        right: 10px;
+        height: 11px;
+        width: 100px;
     }
     #testi-part .testi-slider .right .text p {
         margin-top: 10px;
-        font-size: 13px;
+        font-size: 12px;
     }
     #testi-part .testi-slider .right .text .rate {
         margin: 0px 0;
