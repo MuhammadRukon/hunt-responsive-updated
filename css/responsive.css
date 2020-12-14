@@ -114,6 +114,9 @@
     #portfolio-part .overlay{
         padding-bottom: 40px;
     }
+    #portfolio-part .overlay .img .overlay i {
+        font-size: 25px;
+    }
     /* portfolio part end */
 
     /* Services part start */
