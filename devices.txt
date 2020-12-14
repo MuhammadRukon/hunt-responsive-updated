@@ -1,0 +1,10 @@
+320-575px extra small
+
+576-767px small (col-sm)
+
+768-991px medium (col-md)
+
+992-1199px large (col-lg)
+
+1200px extra large
+

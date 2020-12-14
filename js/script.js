@@ -29,16 +29,16 @@ $('.slider').slick({
     nextArrow: '<i class="fa fa-arrow-circle-right next" aria-hidden="true"></i>',
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 992,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
+          dots: false
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
@@ -69,16 +69,16 @@ $('.slider').slick({
     nextArrow: '<i class="fa fa-angle-down snext" aria-hidden="true"></i>',
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 992,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
-          dots: false
+          dots: false,
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
